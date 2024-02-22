@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
-@media only screen and (max-width: 768px);
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +10,7 @@ body {
     background: linear-gradient(#2b1055,#7597de);
     min-height: 100vh;
     overflow-x: hidden;
+    aspect-ratio: 16/9;
 }
 header {
     position: absolute;
